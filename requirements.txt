@@ -1,9 +1,9 @@
-streamlit
+streamlit==1.45.1
 pandas
 numpy
 scikit-learn==1.6.1
-xgboost==3.0.2
-joblib==1.5.1
-shap==0.48.0
+xgboost==3.0.5
+shap==0.47.2
+joblib==1.4.2
 lime==0.2.0.1
 matplotlib
