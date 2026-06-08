@@ -341,7 +341,11 @@ with left_col:
             ["No", "Yes"]
         )
         
-        submitted = st.form_submit_button("Predict Depression Risk")
+        submitted = st.form_submit_button(
+        "Predict Depression Risk",
+        type="secondary",
+        use_container_width=False
+)
 
 
 with right_col:
